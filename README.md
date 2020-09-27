@@ -1,6 +1,6 @@
 # Quiz Examen Listas
 
-Escribe un programa que se llame **combina_listas.py**
+Escribe un programa que se llame duplicado.py**
 
 #### Su programa deberá tener el pseudocódigo generado por code2flow (10 pts)
 
@@ -8,15 +8,16 @@ Escribe un programa que se llame **combina_listas.py**
 
 *El programa No debe tener ninguna instrucción de input ni de print*
 
-Define un método que se llame **combina** que recibe dos listas.
+Define un método que se llame **elimina_duplicado** que recibe dos listas.
 
-1. Si cualquiera de los parámetros *NO* es de <u>tipo</u> lista debe de regresar un **string** con la frase **Error tipo**. (20 pts)
-2. Si la longitud de ambas listas NO es igual debe de regresar un **string** con la frase **Error longitud** (20 pts)
+1. Si el  parámetro *NO* es de <u>tipo</u> lista debe de regresar un **string** con la frase **Error tipo**. (20 pts)
 
-El método en dado caso de que ambos parámetros sean listas deberá de regresar una **lista** que contenga los elementos combinados de ambas listas. (40 pts)
+El método , en caso de que el parámtero sea una lista deberá de regresar una **lista** que contenga los elementos de la lista inicial elinando los duplicados. (60 pts)
+
+##### Debe de utilizar ciclos y decisiones
 
 Por ejemplo
 
-`combina([1 , 2 , 3] , ["Hola", "es ", "Examen"])` regresará:  `[1 , "Hola" , 2, "es" , 3 , "Examen"]`
+`elimina_duplicado([1,2,3,1,4,2,5,6,1,9])  regresa la lista [1, 2, 3, 4, 5, 6, 9]`
 
 Usa para probar tu método el archivo **test1.py** proporcionado
